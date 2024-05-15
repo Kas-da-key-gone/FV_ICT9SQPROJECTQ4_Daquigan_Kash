@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Q4 Project</title>
+	<style type="text/css">
+		.search-container{width:30%;}
+		#topnav{width:70%;}
+		.searchsub{cursor:pointer;}
+		.searchinput{cursor:text;}
+		#logo{height: 90px;}
+		nav{background-color: #01003D; font-family: Cascadia Code;}
+		#links{color: antiquewhite;font-size: 15px;}
+		#logout {border-radius: 12px; background-color: #05f2fa;}
+		body{background-color: #201F66;}
+		#old{font-family: times new roman; color: black;}
+		#back{color: white;background-color:#01003D;font-family:Cascadia Code; }
+		#box{padding:20px; margin:40px; border: 5px solid	white; background-color:darkblue; width: 300px; font-family: Cascadia Code; color: white;}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md">
+<a class="navbar-brand" href="mainpage.html"><img id="logo"src="LOGO.png"></a>
+<div id="topnav">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page1.html" onclick="firstquarter()">First Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page2.html" onclick="secondquarter()">Second Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page3.html" onclick="thirdquarter()">Third Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="reference.html" onclick="reference()">Sources</a>
+		</li>
+	</ul>
+</div>
+
+
+<div class="search-container">
+	<form>
+		<input type="search" placeholder="Search"name="search" class="searchinput">	
+		<button type="submit" class="searchsub">🔍</button>
+	</form>
+	<br>
+	<a id="logout"href="index.html" class="nav-item">
+		<button id="logout"class="button">Log Out</button>
+	</a>
+</div>
+</nav>
+
+<a id="logout"href="mainpage.html">
+	<button id="back"class="btn btn-info">Go Back</button>
+</a>
+<div id="box">
+	<p>SOURCES USED:
+		<br>
+	<a href="https://es.pixilart.com/art/default-pfp-sr2f33c90d2c131" target="_blank">DEFAULT PFP</a>
+		<br>
+	<a href="https://www.pinterest.ph/pin/36662184459833458/" target="_blank">RAVEN PFP</a>
+		<br>
+	LOGO WAS MADE BY STUDENT
+	<a href="https://tenor.com/view/raven-gif-19027309" target="_blank" >
+	<img src="https://media.tenor.com/eN5IM-SKG68AAAAi/raven.gif">	
+	</a>
+	</p>
+</div>
+	
+</body>
+</html>

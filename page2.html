@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">		
+	<title>Q4 Project</title>
+	<style type="text/css">
+		h1{text-align: center;}
+		#locations{padding:20px; margin:40px; border: 10px solid	orange; background-color:yellow; width: 300px; font-family: verdana; border-style: inset;}	
+		#FORMULA{color: red;font-weight: bold;font-size: 45px;text-align: center;}
+		#TITLE{font-weight: bolder;font-size: 60px;text-align: center;}	
+		li{font-size: 30px;}
+		.container{display: flex}
+		body{background-image: url(https://wallup.net/wp-content/uploads/2016/05/24/372451-landscape-tropical-beach.jpg); background-repeat: no-repeat; background-size:100%; }
+		#title{font-family: verdana; font-size: 50px; color: red; background-color: yellow; border-top: 10px solid; border-bottom: solid 10px;border-color:orangered; text-align: center; letter-spacing:20px;width:800px;}
+		#referencebox{padding:20px; margin:25px; border: 10px solid	orange; background-color:yellow; width: 300px; font-family: verdana; border-style: inset; display:block;}
+		#logo2{float: left; height: 100px; width: 200px;}
+		.search-container{width:30%;}
+		#topnav{width:70%;}
+		.searchsub{cursor:pointer;}
+		.searchinput{cursor:text;}
+		#logo1{height: 90px;}
+		nav{background-color: #01003D; font-family: Cascadia Code;}
+		#links{color: antiquewhite; font-size: 15px;}
+		#logout {border-radius: 12px; background-color: #05f2fa;}
+		#old{font-family: times new roman; color: black;}
+		#back{color: white;background-color:#01003D;font-family:Cascadia Code; }
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md">
+<a class="navbar-brand" href="mainpage.html"><img id="logo1"src="LOGO.png"></a>
+<div id="topnav">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page1.html" onclick="firstquarter()">First Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page2.html" onclick="secondquarter()">Second Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="page3.html" onclick="thirdquarter()">Third Quarter Project</a>
+		</li>
+		<li class="nav-item">
+			<a id="links" class="nav-link" href="reference.html" onclick="reference()">Sources</a>
+		</li>
+	</ul>
+</div>
+
+<div class="search-container">
+	<form>
+		<input type="search" placeholder="Search"name="search" class="searchinput">	
+		<button type="submit" class="searchsub">🔍</button>
+	</form>
+	<br>
+	<a id="logout"href="index.html" class="nav-item">
+		<button class="button button4">Log Out</button>
+	</a>
+</div>
+</nav>
+<a id="logout"href="mainpage.html">
+	<button id="back"class="btn btn-info">Go Back</button>
+</a>
+<br>	
+<img id="logo2"src="https://files01.pna.gov.ph/category-list/2023/06/27/318bb643-3ce3-45d8-a2cb-e4670bdaee52.jpeg">
+	<center>	
+		<h2 id="title">PHOTO GALLERY</h2>	
+		<a id="referencebox"href="https://docs.google.com/document/d/1xljaooLlAuQjPBUMJ9hxOg8jNVjZLKf3Gp_DwWTHyzM/edit?usp=sharing" target="_blank"	>References.</a>
+	</center>
+	
+<div class="container">	
+	<div id="locations">
+	 	<center>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Boracay_White_Beach.png" width="200px" height="	200px">
+		<h3>BORACAY WHITE BEACH</h3>
+		<p>BORACAY IS A FAMOUS ISLAND IN THE PHILIPPINES WITH IT'S WHITE POWDERY SAND AND ITS CLEAR WATER. IT IS LOCATED OFF THE NORTHWEST COAST OF PANAY IN THE WESTERN VISAYAS REGION.</p>
+	</center>
+	</div>
+	<div id="locations">
+	 	<center>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chocolate_Hills_overview.JPG" height="200px" width="200px">
+		<h3>BOHOL'S CHOCOLATE HILLS</h3>
+		<p>THIS TOURIST ATTRACTION IS FOUND IN THE PROVINCE OF BOHOL. THE REASON FOR IT BEING FAMOUS IS ITS GRASS THAT TURNS BROWN DURING THE DRY SEASON MAKING THE HILLS LOOK SIMILAR TO CHOCOLATE HILLS HENCE THE NAME.</p>
+	</center>
+	</div>
+	<div id="locations">
+	 	<center>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Puerto-Princesa_Subterranean_River_National_Park-112012.jpg" height="200px" width="200px">
+		<h3>PALAWAN'S UNDERGROUND RIVER</h3>
+		<p>PALAWAN'S UNDERGROUND RIVER CAN BE FOUND IN THE CITY OF PUERTO PRINCESSA. IT IS THE WORLD'S LONGEST UNDERGROUND RIVER. YOU CAN TAKE A BOAT RIDE INTO THE RIVER AND EXPLORE THE RIVER FOR YOURSELF.</p>
+	</center>
+	</div>
+</body>
+</html>
